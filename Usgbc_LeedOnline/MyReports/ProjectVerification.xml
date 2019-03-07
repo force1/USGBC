@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="110.491722">
+<testcase classname="Verifying the project details, edit, download and upload documents" name="To verify Leed Online Login" time="62.345742">
+<system-out><![CDATA[Given User has to navigate to LEED Online login page........................passed
+And User has to enter username jaypeejay@hotmail.com and password initpass..passed
+And User has to check accept checkbox.......................................passed
+When User clicks on login button and navigate to home page..................passed
+And User clicks on Project..................................................passed
+Then User should navigate to Project Details Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the project details, edit, download and upload documents" name="To verify project details" time="0.629215">
+<system-out><![CDATA[Given User should be in Project Details page................................passed
+When User has to verify project name v4.1 Interiors BP02,Registration date 21 Feb 2019,project type Individual Project.passed
+And User has to verify rating system LEED v4.1 O+M: Interiors,unit type IP units.passed
+And User has to verify Gross floor area 1000 sq ft,Antisipated type Airport: Distribution Center.passed
+And User has to verify country United States,Address 9338 Carpenter St......passed
+And User has to verify city Waukesha,state Wisconsin,postal code 53186,geo location 41.582272, -85.834438.passed
+And User has to verify PRIVATE no,Affliated with Leed lab <Affliated with Leed lab>.passed
+And User has to verify Owner J & S Real AssetLLC,Owners Representative <Owners Representative>,OwnerType <OwnerType>,Owner Country<Owner Country>.passed
+And User has to verify Email address js.a@gmail.com.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the project details, edit, download and upload documents" name="To  Download and Upload the Change of Owner Agreement if the owner has changed" time="45.323905">
+<system-out><![CDATA[Given User has to verify Change of Owner Agreement page.....................passed
+When User clicks on download................................................passed
+And User should navigate to Change of Owner Agreement form page.............passed
+And User clicks on download button..........................................passed
+And User should navigate to resource file page..............................passed
+And User clicks on Change of Owner Agreement pdf file.......................passed
+Then User has to fill the downloaded file and upload file by click on Upload Change of Owner Agreement button.passed
+And User can see the uploaded file in project details page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the project details, edit, download and upload documents" name="To edit and update  project details" time="2.19286">
+<system-out><![CDATA[Given User sholud be in project details page................................passed
+When User has to click on edit icon.........................................passed
+And User can see the update project page....................................passed
+And User can edit Gross floor area..........................................passed
+And User clicks on Update Button............................................passed
+Then User can check the update details......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

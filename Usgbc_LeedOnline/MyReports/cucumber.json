@@ -1,0 +1,375 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 22,
+        "name": "To verify the Leed online Login",
+        "description": "",
+        "id": "usgbc-leed-online---registration-for-campus;to-verify-the-leed-online-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17234983413,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to navigate to LEED Online login page",
+            "match": {
+              "location": "projectdetails.user_has_to_navigate_to_LEED_Online_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2772633152,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter username jaypeejay@hotmail.com and password initpass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaypeejay@hotmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "initpass",
+                  "offset": 62
+                }
+              ],
+              "location": "projectdetails.User_has_to_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3189063516,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to check accept checkbox",
+            "match": {
+              "location": "projectdetails.User_has_to_check_accept_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2166836075,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login button and navigate to home page",
+            "match": {
+              "location": "projectdetails.User_clicks_on_login_button_and_navigate_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623386,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should navigate to Project Details Page",
+            "match": {
+              "location": "projectdetails.User_should_navigate_to_Project_Details_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Create a campus for Leed online",
+        "description": "",
+        "id": "usgbc-leed-online---registration-for-campus;create-a-campus-for-leed-online;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35458959205,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be on registration page",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_should_be_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1829758,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User has to select campus from the register dropdown",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.user_has_to_select_campus_from_the_register_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1212790,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User has to verify campus registration",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.user_has_to_verify_campus_registration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6797056227,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User has to enter the Name TestProjectcampus12,Owner JOHN J NOLIS ARCHITECTURE AND INTERIORS and Owners Representative 123456789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestProjectcampus12",
+                  "offset": 27
+                },
+                {
+                  "val": "JOHN J NOLIS ARCHITECTURE AND INTERIORS",
+                  "offset": 53
+                },
+                {
+                  "val": "123456789",
+                  "offset": 119
+                }
+              ],
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_enter_the_Name_Owner_and_Owners_Representative(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050713666,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User has to select Owner type",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_select_Owner_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6788994871,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User has to select owner country",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_select_owner_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447587975,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User has to enter email address testleed@campus.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testleed@campus.com",
+                  "offset": 32
+                }
+              ],
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622406868,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User has to enter Address 795,Address E DRAGRAM and City TUCSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "795",
+                  "offset": 26
+                },
+                {
+                  "val": "E DRAGRAM",
+                  "offset": 38
+                },
+                {
+                  "val": "TUCSON",
+                  "offset": 57
+                }
+              ],
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_enter_Address_Address_and_City(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7554100569,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User has to select Country",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_select_Country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919075319,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User has to select State",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_select_State()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234320003,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User has to enter Postal code 98104",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98104",
+                  "offset": 30
+                }
+              ],
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_to_enter_Postalcodes(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500852200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User clicks Continue button",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_clicks_Continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 944707,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User has filled the details successfully and should navigate to Agreement page",
+            "match": {
+              "location": "Usgbc_LeedCampusRegStepDef.User_has_filled_the_details_successfully_and_should_navigate_to_Agreement_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@NegativeTest"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "LEED certification agreement",
+        "description": "",
+        "id": "usgbc-leed-online---registration-for-campus;leed-certification-agreement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16242026,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User has to find LEED certification agreement",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_find_LEED_certification_agreement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13463094095,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User should find all the 29 list of points",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_find_all_the_29_list_of_points()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225101361,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User wants to agree then user should click on I AGREE button",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_wants_to_agree_then_user_should_click_on_I_AGREE_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 844271,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User successfully registered project and user should navigate to payment page",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_successfully_registered_project_and_user_should_navigate_to_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "USGBC Leed Online - Registration for Campus",
+    "description": "",
+    "id": "usgbc-leed-online---registration-for-campus",
+    "keyword": "Feature",
+    "uri": "Include/features/Usgbc_LeedCampusReg.feature",
+    "tags": []
+  }
+]

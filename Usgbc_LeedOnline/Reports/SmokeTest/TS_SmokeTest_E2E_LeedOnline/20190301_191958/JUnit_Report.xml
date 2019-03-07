@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SmokeTest_E2E_LeedOnline" time="299" tests="0" failures="1" errors="0">
+   <testsuite name="TS_SmokeTest_E2E_LeedOnline" tests="0" failures="1" errors="0" time="299" timestamp="2019-03-01 19:19:59" hostname="PromantusInc - G10PROLT028" id="Test Suites/SmokeTest/TS_SmokeTest_E2E_LeedOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958"/>
+         <property name="logFiles" value="F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\execution0.log"/>
+         <property name="attachments" value="F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448343862.png, F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448453389.png, F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448453786.png, F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448485165.png, F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448485450.png, F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448498381.png"/>
+         <property name="hostName" value="PromantusInc - G10PROLT028"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.1.29"/>
+         <property name="sessionId" value="0bcce4381c629767f8575fdcf429f849"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmokeTest/TC_E2E Leed Online" classname="Test Cases/SmokeTest/TC_E2E Leed Online" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SmokeTest/TC_E2E Leed Online FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-01 19:20:00 - [TEST_CASE][FAILED] - Test Cases/SmokeTest/TC_E2E Leed Online: Test Cases/SmokeTest/TC_E2E Leed Online FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)
+
+
+2019-03-01 19:20:00 - [TEST_STEP][FAILED] - runWithCucumberRunner(testRunner.LeedRunner): runWithCucumberRunner(testRunner.LeedRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)
+
+
+2019-03-01 19:20:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 19:20:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-01 19:20:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 19:20:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-01 19:20:08 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-03-01 19:20:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:10 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log username'
+
+2019-03-01 19:20:10 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log password'
+
+2019-03-01 19:20:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-01 19:20:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' successfully
+
+2019-03-01 19:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is checked
+
+2019-03-01 19:20:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/button_Log In' is clicked on
+
+2019-03-01 19:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/createcampus/Page_LEED Online/a_Campuses' is clicked on
+
+2019-03-01 19:20:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/createcampus/Page_LEED Online/a_Create new campus' is clicked on
+
+2019-03-01 19:20:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:20:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Name_name' successfully
+
+2019-03-01 19:20:34 - [MESSAGE][PASSED] - Text 'TestProjectcampus12' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Name_name'
+
+2019-03-01 19:20:34 - [MESSAGE][PASSED] - Text 'JOHN J NOLIS ARCHITECTURE AND INTERIORS' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Owner_organization'
+
+2019-03-01 19:20:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:36 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_concat(Owner  s Represen'
+
+2019-03-01 19:20:37 - [MESSAGE][PASSED] - All options with value 'Educational: College, Private' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/Page_LEED Online/select_Select owner typeBusine'  using regular expression
+
+2019-03-01 19:20:40 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AfghanistanAland Island'  using regular expression
+
+2019-03-01 19:20:40 - [MESSAGE][PASSED] - Text 'testleed@campus.com' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Email_email'
+
+2019-03-01 19:20:40 - [MESSAGE][PASSED] - Text '795' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Address 1_address1'
+
+2019-03-01 19:20:40 - [MESSAGE][PASSED] - Text 'E DRAGRAM' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Address 2_address2'
+
+2019-03-01 19:20:41 - [MESSAGE][PASSED] - Text 'TUCSON' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_City_city'
+
+2019-03-01 19:20:44 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AfghanistanAland Island_2'  using regular expression
+
+2019-03-01 19:20:44 - [MESSAGE][PASSED] - All options with value 'AK ' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AlabamaAlaskaAmerican S'  using regular expression
+
+2019-03-01 19:20:44 - [MESSAGE][PASSED] - Text '98104' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Postal code 1_postalcode'
+
+2019-03-01 19:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/input_Postal code 3_fActionsSu' is clicked on
+
+2019-03-01 19:20:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-01 19:20:51 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:20:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:53 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:20:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:55 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:20:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' successfully
+
+2019-03-01 19:20:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' is clicked on
+
+2019-03-01 19:20:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-01 19:20:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 19:21:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 19:21:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-01 19:21:16 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-03-01 19:21:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:21:19 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log username'
+
+2019-03-01 19:21:19 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log password'
+
+2019-03-01 19:21:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-01 19:21:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' successfully
+
+2019-03-01 19:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is checked
+
+2019-03-01 19:21:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/button_Log In' is clicked on
+
+2019-03-01 19:21:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/Page_LEED Online/div_Create new Project' is clicked on
+
+2019-03-01 19:21:37 - [MESSAGE][PASSED] - Text 'Go05' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Name_name'
+
+2019-03-01 19:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/span_No_checked' is clicked on
+
+2019-03-01 19:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_LEED v4 BDC New Constru' is clicked on
+
+2019-03-01 19:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/span_IP units_checked' is clicked on
+
+2019-03-01 19:21:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:21:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp' is clicked on
+
+2019-03-01 19:21:44 - [MESSAGE][PASSED] - All options with value 'Airport: Distribution Center' are selected in object 'Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'  using regular expression
+
+2019-03-01 19:21:45 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Gross floor area_grossFo'
+
+2019-03-01 19:21:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:21:47 - [MESSAGE][PASSED] - Text 'J & S Real Assets, LLC' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Owner_organization'
+
+2019-03-01 19:21:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:21:49 - [MESSAGE][PASSED] - Text 'Jancy Rani' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_concat(Owner  s Represen'
+
+2019-03-01 19:21:49 - [MESSAGE][PASSED] - All options with value 'Business Improvement District' are selected in object 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_Select owner typeBusine'  using regular expression
+
+2019-03-01 19:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_Select owner typeBusine' is clicked on
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Text 'gokulthiru22@gmail.com' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Email_email'
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_This project is private_' is clicked on
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Address 1_address1'
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Address 2_address2'
+
+2019-03-01 19:21:52 - [MESSAGE][PASSED] - Text 'Waukesha' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_City_city'
+
+2019-03-01 19:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/div_City' is clicked on
+
+2019-03-01 19:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_AlabamaAlaskaAmerican S' is clicked on
+
+2019-03-01 19:21:53 - [MESSAGE][PASSED] - Text '46526' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Postal code_postalcode'
+
+2019-03-01 19:21:53 - [MESSAGE][PASSED] - Text '41.582272' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_geoLat'
+
+2019-03-01 19:21:54 - [MESSAGE][PASSED] - Text '-85.834438' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_geoLng'
+
+2019-03-01 19:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_fActionsSub' is clicked on
+
+2019-03-01 19:21:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-01 19:21:59 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:22:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:22:01 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:22:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:22:03 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-01 19:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:22:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' successfully
+
+2019-03-01 19:22:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' is clicked on
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is visible
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is clicked on
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is clicked on
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Card type_card_type' is clicked on
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Text 'gokul' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Name on card_card-name'
+
+2019-03-01 19:22:17 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Card number_card-number'
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - Text '999' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_CVV_card-cvv'
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - All options with value '07' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_01020304050607080910111'  using regular expression
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - All options with value '2021' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_20192020202120222023202'  using regular expression
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - Text 'john james p' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Bill-to-party name_billN'
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - Text 'gokulthiru22@gmail.com' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Bill-to-party email_bill'
+
+2019-03-01 19:22:18 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Address 2_address2_20'
+
+2019-03-01 19:22:19 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Address 2_address2_21'
+
+2019-03-01 19:22:19 - [MESSAGE][PASSED] - Text 'Waukesha' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_City_city'
+
+2019-03-01 19:22:22 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_AfghanistanAland Island'  using regular expression
+
+2019-03-01 19:22:22 - [MESSAGE][PASSED] - All options with value 'IN ' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_AlabamaAlaskaAmerican S'  using regular expression
+
+2019-03-01 19:22:22 - [MESSAGE][PASSED] - Text '46526' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Postal code_postalcode'
+
+2019-03-01 19:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/a_Submit Payment' is clicked on
+
+2019-03-01 19:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment2/Page_/span_close' is clicked on
+
+2019-03-01 19:22:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/payment page/Paymentpage_LEED Online/a_Submit Payment' does not exist
+
+2019-03-01 19:22:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-01 19:22:24 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448343862.png]]
+
+2019-03-01 19:22:24 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Receipt/Page_LEED Online/td_v4.1 Interiors BP02' is visible
+
+2019-03-01 19:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Print Order' is clicked on
+
+2019-03-01 19:22:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-01 19:22:31 - [MESSAGE][PASSED] - Switched to window with title: 'LEED Online'
+
+2019-03-01 19:22:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done' successfully
+
+2019-03-01 19:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done' is clicked on
+
+2019-03-01 19:22:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-01 19:22:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 19:23:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 19:23:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-01 19:23:07 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-03-01 19:23:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:23:09 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log username'
+
+2019-03-01 19:23:09 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log password'
+
+2019-03-01 19:23:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-01 19:23:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' successfully
+
+2019-03-01 19:23:12 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is checked
+
+2019-03-01 19:23:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/button_Log In' is clicked on
+
+2019-03-01 19:23:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-01 19:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip' is clicked on
+
+2019-03-01 19:23:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip' is clicked on
+
+2019-03-01 19:23:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip' is clicked on
+
+2019-03-01 19:23:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip' is clicked on
+
+2019-03-01 19:23:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-01 19:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/Page_LEED Online/div_v4.1 Interiors BP021000158' is clicked on
+
+2019-03-01 19:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/div_v4.1 Interiors BP02' is visible
+
+2019-03-01 19:24:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-01 19:24:13 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448453389.png]]
+
+2019-03-01 19:24:14 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found)
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448453786.png]]
+
+2019-03-01 19:24:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-01 19:24:45 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448485165.png]]
+
+2019-03-01 19:24:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found)
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448485450.png]]
+
+2019-03-01 19:24:47 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org/projects/details/1000158832' successfully
+
+2019-03-01 19:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/div_v4.1 Interiors BP02' is clicked on
+
+2019-03-01 19:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/i_Project details_icon-pencil' is clicked on
+
+2019-03-01 19:24:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)
+[[ATTACHMENT|F:\\BDD\\Usgbc_Leed\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190301_191958\\1551448498381.png]]
+
+2019-03-01 19:24:58 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+
+2019-03-01 19:24:58 - [MESSAGE][FAILED] - runWithCucumberRunner(testRunner.LeedRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-01 19:20:00 - [TEST_CASE][FAILED] - Test Cases/SmokeTest/TC_E2E Leed Online: Test Cases/SmokeTest/TC_E2E Leed Online FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-01 19:19:59 - [TEST_SUITE][FAILED] - TS_SmokeTest_E2E_LeedOnline: Test Cases/SmokeTest/TC_E2E Leed Online FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-01 19:19:59 - [TEST_SUITE][FAILED] - TS_SmokeTest_E2E_LeedOnline: Test Cases/SmokeTest/TC_E2E Leed Online FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null), Unable to verify object 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/verify project details/Page_LEED Online/td_v4.1 Interiors BP02' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::td[1]' not found), Unable to verify object 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/strong_Change of Owner Agreeme' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[3]/following::strong[1]' not found), Unable to click on object 'Object Repository/Verify_PrjtDetail/update/Page_LEED Online/h5_Update Project' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT028', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 0bcce4381c629767f8575fdcf429f849)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_E2E Leed Online.run(TC_E2E Leed Online:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551448198240.run(TempTestSuite1551448198240.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

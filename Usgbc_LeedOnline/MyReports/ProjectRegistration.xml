@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="125.716054">
+<testcase classname="USGBC Leed Online Project Registration" name="To verify the Leed online Login" time="36.001901">
+<system-out><![CDATA[Given User has to navigate to LEED Online login page........................passed
+And User has to enter username jaypeejay@hotmail.com and password initpass..passed
+And User has to check accept checkbox.......................................passed
+When User clicks on login button and navigate to home page..................passed
+Then User should navigate to project Details Page...........................passed
+And User clicks on Create new button to navigate to in Leeds online homepage.passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online Project Registration" name="Creating Project for Leeds Online" time="18.181675">
+<system-out><![CDATA[Given User should be in Leeds online homepage...............................passed
+And User has to fill all the entries in project details page such as Name BDDAuto001.passed
+And User should select Group Certification project,Rating Systems,Unit Type.passed
+And User should select start date...........................................passed
+And User should select end date.............................................passed
+And User should click and select Anticipated type...........................passed
+And User should enter Gross floor area 1000,Owner J & S Real Assets, LLC,Owners Representative Jancy Rani.passed
+And User has to select OwnerType,Owner Country..............................passed
+And User should enter the email address gokulthiru22@gmail.com..............passed
+And User has to select the Project Options..................................passed
+And User has to select the Project Options of previously certified..........passed
+And User can enter the ProjectID 1000159688.................................passed
+And User enters address1 9338 Carpenter St. and address2 9338 Carpenter St..passed
+And User has to enter city Waukesha.........................................passed
+And User has to select Country and state....................................passed
+And User has to enter postal code 46526.....................................passed
+And User has to enter geo location of latitude 41.582272 and longitude -85.834438.passed
+When User clicks on Continue Button.........................................passed
+Then Successfully entered the details page and user should navigate to Agreement page.passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online Project Registration" name="To Verify LEED certification agreement" time="13.237877">
+<system-out><![CDATA[Given User has to find LEED certification agreement.........................passed
+And User should find all the 29 list of points..............................passed
+When User wants to agree then user should click on I AGREE button...........passed
+Then User successfully registered project and user should navigate to payment page.passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online Project Registration" name="To verify USGBC LEED online payment for card" time="24.091113">
+<system-out><![CDATA[Given User has to see Project details.......................................passed
+And User has to find payment type...........................................passed
+And User can select credit card and card type...............................passed
+And User should enter Name on card gokul t,Card number 4111111111111111,CVV 999.passed
+And User should select Expiration Month 02 and Year 2023....................passed
+And User should enter Bill to party name <Bill to party name>,Bill to party Email < Bill to party Email>.passed
+And User should enter Address1 9338 Carpenter St.,Address2 9338 Carpenter St.,City Waukesha,Country United States,State Indiana,Postal code <Postal code>.passed
+When User should click on SUBMIT PAYMENT....................................passed
+Then User successfully entered into Receipt page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online Project Registration" name="To verify the Receipt" time="34.203488">
+<system-out><![CDATA[Given User has to find Order Summary........................................passed
+When User has to click on Print and DONE buttons............................passed
+Then User successfully created project......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

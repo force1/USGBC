@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="70.485478">
+<testcase classname="USGBC Leed Online - Registration for Campus" name="To verify the Leed online Login" time="24.931051">
+<system-out><![CDATA[Given User has to navigate to LEED Online login page........................passed
+And User has to enter username jaypeejay@hotmail.com and password initpass..passed
+And User has to check accept checkbox.......................................passed
+When User clicks on login button and navigate to home page..................passed
+Then User should navigate to Project Details Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online - Registration for Campus" name="Create a campus for Leed online" time="32.311394">
+<system-out><![CDATA[Given User should be on registration page...................................passed
+And User has to select campus from the register dropdown....................passed
+And User has to verify campus registration..................................passed
+And User has to enter the Name TestProjectcampus12,Owner JOHN J NOLIS ARCHITECTURE AND INTERIORS and Owners Representative 123456789.passed
+And User has to select Owner type...........................................passed
+And User has to select owner country........................................passed
+And User has to enter email address testleed@campus.com.....................passed
+And User has to enter Address 795,Address E DRAGRAM and City TUCSON.........passed
+And User has to select Country..............................................passed
+And User has to select State................................................passed
+And User has to enter Postal code 98104.....................................passed
+When User clicks Continue button............................................passed
+Then User has filled the details successfully and should navigate to Agreement page.passed
+]]></system-out>
+</testcase>
+<testcase classname="USGBC Leed Online - Registration for Campus" name="LEED certification agreement" time="13.243033">
+<system-out><![CDATA[Given User has to find LEED certification agreement.........................passed
+And User should find all the 29 list of points..............................passed
+When User wants to agree then user should click on I AGREE button...........passed
+Then User successfully registered project and user should navigate to payment page.passed
+]]></system-out>
+</testcase>
+</testsuite>

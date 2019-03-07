@@ -1,0 +1,714 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 24,
+        "name": "To verify the Leed online Login",
+        "description": "",
+        "id": "usgbc-leed-online-project-registration;to-verify-the-leed-online-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13268319537,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to navigate to LEED Online login page",
+            "match": {
+              "location": "projectdetails.user_has_to_navigate_to_LEED_Online_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2364501709,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter username jaypeejay@hotmail.com and password initpass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaypeejay@hotmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "initpass",
+                  "offset": 62
+                }
+              ],
+              "location": "projectdetails.User_has_to_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3109097307,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to check accept checkbox",
+            "match": {
+              "location": "projectdetails.User_has_to_check_accept_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137218358,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on login button and navigate to home page",
+            "match": {
+              "location": "projectdetails.User_clicks_on_login_button_and_navigate_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 316790,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should navigate to project Details Page",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_navigate_to_Project_Details_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15109487725,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Create new button to navigate to in Leeds online homepage",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_clicks_on_Create_new_button_to_navigate_to_in_Leeds_online_homepage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Creating Project for Leeds Online",
+        "description": "",
+        "id": "usgbc-leed-online-project-registration;creating-project-for-leeds-online;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 378713,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be in Leeds online homepage",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_be_in_Leeds_online_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246996820,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User has to fill all the entries in project details page such as Name BDDAuto001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDDAuto001",
+                  "offset": 70
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_fill_all_the_entries_in_project_details_page_such_as_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 345116735,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should select Group Certification project,Rating Systems,Unit Type",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_select_Group_Certification_project_Rating_Systems_Unit_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3396603590,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should select start date",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_select_start_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3349822519,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should select end date",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_select_end_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004578917,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should click and select Anticipated type",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_click_and_select_Anticipated_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4850376995,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should enter Gross floor area 1000,Owner J \u0026 S Real Assets, LLC,Owners Representative Jancy Rani",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 35
+                },
+                {
+                  "val": "J \u0026 S Real Assets, LLC",
+                  "offset": 46
+                },
+                {
+                  "val": "Jancy Rani",
+                  "offset": 91
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_enter_Gross_floor_area_Owner_Owners_Representative(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421322264,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User has to select OwnerType,Owner Country",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_select_OwnerType_Owner_Country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2367375095,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should enter the email address gokulthiru22@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gokulthiru22@gmail.com",
+                  "offset": 36
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_enter_the_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82958931,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User has to select the Project Options",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_select_the_Project_Options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188413,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User has to select the Project Options of previously certified",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_select_the_Project_Options_of_previously_certified()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165380,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User can enter the ProjectID 1000159688",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000159688",
+                  "offset": 29
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_can_enter_the_ProjectID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616137104,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters address1 9338 Carpenter St. and address2 9338 Carpenter St.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9338 Carpenter St.",
+                  "offset": 21
+                },
+                {
+                  "val": "9338 Carpenter St.",
+                  "offset": 53
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_enters_address1_and_address2(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183274852,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User has to enter city Waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waukesha",
+                  "offset": 23
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_enter_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155808526,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User has to select Country and state",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_select_Country_and_state()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168329090,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User has to enter postal code 46526",
+            "match": {
+              "arguments": [
+                {
+                  "val": "46526",
+                  "offset": 30
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_enter_postal_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 859551064,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User has to enter geo location of latitude 41.582272 and longitude -85.834438",
+            "match": {
+              "arguments": [
+                {
+                  "val": "41.582272",
+                  "offset": 43
+                },
+                {
+                  "val": "-85.834438",
+                  "offset": 67
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_enter_geo_location_of_latitude_and_longitude(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123540888,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User clicks on Continue Button",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_clicks_on_Continue_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154808,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Successfully entered the details page and user should navigate to Agreement page",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.Successfully_entered_the_details_page_and_user_should_navigate_to_Agreement_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "To Verify LEED certification agreement",
+        "description": "",
+        "id": "usgbc-leed-online-project-registration;to-verify-leed-certification-agreement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240519,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User has to find LEED certification agreement",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_find_LEED_certification_agreement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13162817173,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User should find all the 29 list of points",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_find_all_the_29_list_of_points()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71209386,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User wants to agree then user should click on I AGREE button",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_wants_to_agree_then_user_should_click_on_I_AGREE_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542206,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User successfully registered project and user should navigate to payment page",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_successfully_registered_project_and_user_should_navigate_to_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 103,
+        "name": "To verify USGBC LEED online payment for card",
+        "description": "",
+        "id": "usgbc-leed-online-project-registration;to-verify-usgbc-leed-online-payment-for-card;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10121587288,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User has to see Project details",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_see_Project_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55963447,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User has to find payment type",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_find_payment_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120894050,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User can select credit card and card type",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_can_select_credit_card_and_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382567418,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User should enter Name on card gokul t,Card number 4111111111111111,CVV 999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gokul t",
+                  "offset": 31
+                },
+                {
+                  "val": "4111111111111111",
+                  "offset": 51
+                },
+                {
+                  "val": "999",
+                  "offset": 72
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_enter_Name_on_card_Card_number_CVV(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 450915500,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User should select Expiration Month 02 and Year 2023",
+            "match": {
+              "arguments": [
+                {
+                  "val": "02",
+                  "offset": 36
+                },
+                {
+                  "val": "2023",
+                  "offset": 48
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_select_Expiration_Month_and_Year(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574034631,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "User should enter Bill to party name \u003cBill to party name\u003e,Bill to party Email \u003c Bill to party Email\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cBill to party name\u003e",
+                  "offset": 37
+                },
+                {
+                  "val": "\u003c Bill to party Email\u003e",
+                  "offset": 78
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_enter_Bill_to_party_name_Bill_to_party_Email(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4627016704,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User should enter Address1 9338 Carpenter St.,Address2 9338 Carpenter St.,City Waukesha,Country United States,State Indiana,Postal code \u003cPostal code\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9338 Carpenter St.",
+                  "offset": 27
+                },
+                {
+                  "val": "9338 Carpenter St.",
+                  "offset": 55
+                },
+                {
+                  "val": "Waukesha",
+                  "offset": 79
+                },
+                {
+                  "val": "United States",
+                  "offset": 96
+                },
+                {
+                  "val": "Indiana",
+                  "offset": 116
+                },
+                {
+                  "val": "\u003cPostal code\u003e",
+                  "offset": 136
+                }
+              ],
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_enter_Address1_Address2_City_Country_State_Postal_code(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7751453590,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User should click on SUBMIT PAYMENT",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_should_click_on_SUBMIT_PAYMENT()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 268460,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User successfully entered into Receipt page",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_successfully_entered_into_Receipt_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 130,
+        "name": "To verify the Receipt",
+        "description": "",
+        "id": "usgbc-leed-online-project-registration;to-verify-the-receipt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39638007,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "User has to find Order Summary",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_find_Order_Summary()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34162011038,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "User has to click on Print and DONE buttons",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_click_on_Print_and_DONE_buttons()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335669,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "User successfully created project",
+            "match": {
+              "location": "Usgbc_LeedPrjtRegStepDef.User_successfully_created_project()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "USGBC Leed Online Project Registration",
+    "description": "",
+    "id": "usgbc-leed-online-project-registration",
+    "keyword": "Feature",
+    "uri": "Include/features/Usgbc_LeedPrjtReg.feature",
+    "tags": []
+  }
+]

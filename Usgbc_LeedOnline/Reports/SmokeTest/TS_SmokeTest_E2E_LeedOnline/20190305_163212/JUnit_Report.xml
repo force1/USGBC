@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SmokeTest_E2E_LeedOnline" time="73" tests="1" failures="0" errors="0">
+   <testsuite name="TS_SmokeTest_E2E_LeedOnline" tests="1" failures="0" errors="0" time="73" timestamp="2019-03-05 16:32:20" hostname="promantus inc - G10PROLT025" id="Test Suites/SmokeTest/TS_SmokeTest_E2E_LeedOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190305_163212"/>
+         <property name="logFiles" value="F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190305_163212\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="f19b8fbce65298ff3f9b89d37e111ad2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmokeTest/TC_Campus_Registration" classname="Test Cases/SmokeTest/TC_Campus_Registration" status="PASSED">
+         <system-out><![CDATA[2019-03-05 16:32:20 - [TEST_CASE][PASSED] - Test Cases/SmokeTest/TC_Campus_Registration: Test Cases/SmokeTest/TC_Campus_Registration
+
+2019-03-05 16:32:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.CampusRegistrationRunner): Run with 'testRunner.CampusRegistrationRunner' was passed
+
+2019-03-05 16:32:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 16:32:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-05 16:32:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 16:32:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-05 16:32:38 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-03-05 16:32:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:32:40 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log username'
+
+2019-03-05 16:32:40 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log password'
+
+2019-03-05 16:32:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-05 16:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 16:32:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' successfully
+
+2019-03-05 16:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is checked
+
+2019-03-05 16:32:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/button_Log In' is clicked on
+
+2019-03-05 16:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/createcampus/Page_LEED Online/a_Campuses' is clicked on
+
+2019-03-05 16:33:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/createcampus/Page_LEED Online/a_Create new campus' is clicked on
+
+2019-03-05 16:33:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-05 16:33:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Name_name' successfully
+
+2019-03-05 16:33:07 - [MESSAGE][PASSED] - Text 'TestProjectcampus12' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Name_name'
+
+2019-03-05 16:33:07 - [MESSAGE][PASSED] - Text 'JOHN J NOLIS ARCHITECTURE AND INTERIORS' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Owner_organization'
+
+2019-03-05 16:33:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:09 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_concat(Owner  s Represen'
+
+2019-03-05 16:33:10 - [MESSAGE][PASSED] - All options with value 'Educational: College, Private' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/Page_LEED Online/select_Select owner typeBusine'  using regular expression
+
+2019-03-05 16:33:13 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AfghanistanAland Island'  using regular expression
+
+2019-03-05 16:33:14 - [MESSAGE][PASSED] - Text 'testleed@campus.com' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Email_email'
+
+2019-03-05 16:33:14 - [MESSAGE][PASSED] - Text '795' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Address 1_address1'
+
+2019-03-05 16:33:14 - [MESSAGE][PASSED] - Text 'E DRAGRAM' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Address 2_address2'
+
+2019-03-05 16:33:14 - [MESSAGE][PASSED] - Text 'TUCSON' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_City_city'
+
+2019-03-05 16:33:18 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AfghanistanAland Island_2'  using regular expression
+
+2019-03-05 16:33:18 - [MESSAGE][PASSED] - All options with value 'AK ' are selected in object 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/select_AlabamaAlaskaAmerican S'  using regular expression
+
+2019-03-05 16:33:18 - [MESSAGE][PASSED] - Text '98104' is set on object 'Object Repository/Campus_Registration/LEED_log/LEED_campusReg/Page_LEED Online/input_Postal code 1_postalcode'
+
+2019-03-05 16:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Campus_Registration/LEED_camRegtc/leedcampus/Page_LEED Online/input_Postal code 3_fActionsSu' is clicked on
+
+2019-03-05 16:33:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-05 16:33:25 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-05 16:33:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:27 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-05 16:33:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:29 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-05 16:33:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' successfully
+
+2019-03-05 16:33:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 16:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' is clicked on
+
+2019-03-05 16:33:33 - [MESSAGE][PASSED] - Run with 'testRunner.CampusRegistrationRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 16:32:20 - [TEST_SUITE][PASSED] - TS_SmokeTest_E2E_LeedOnline: Test Cases/SmokeTest/TC_Campus_Registration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

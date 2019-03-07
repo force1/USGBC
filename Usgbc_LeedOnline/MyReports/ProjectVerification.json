@@ -1,0 +1,527 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 24,
+        "name": "To verify Leed Online Login",
+        "description": "",
+        "id": "verifying-the-project-details--edit--download-and-upload-documents;to-verify-leed-online-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13490345630,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to navigate to LEED Online login page",
+            "match": {
+              "location": "projectdetails.user_has_to_navigate_to_LEED_Online_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2321219904,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter username jaypeejay@hotmail.com and password initpass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaypeejay@hotmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "initpass",
+                  "offset": 62
+                }
+              ],
+              "location": "projectdetails.User_has_to_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3102964087,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to check accept checkbox",
+            "match": {
+              "location": "projectdetails.User_has_to_check_accept_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083731618,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on login button and navigate to home page",
+            "match": {
+              "location": "projectdetails.User_clicks_on_login_button_and_navigate_to_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41328699029,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Project",
+            "match": {
+              "location": "projectdetails.User_clicks_on_Project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 409298,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should navigate to Project Details Page",
+            "match": {
+              "location": "projectdetails.User_should_navigate_to_Project_Details_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "To verify project details",
+        "description": "",
+        "id": "verifying-the-project-details--edit--download-and-upload-documents;to-verify-project-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36513598,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be in Project Details page",
+            "match": {
+              "location": "projectdetails.User_should_be_in_Project_Details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91951558,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User has to verify project name v4.1 Interiors BP02,Registration date 21 Feb 2019,project type Individual Project",
+            "match": {
+              "arguments": [
+                {
+                  "val": "v4.1 Interiors BP02",
+                  "offset": 32
+                },
+                {
+                  "val": "21 Feb 2019",
+                  "offset": 70
+                },
+                {
+                  "val": "Individual Project",
+                  "offset": 95
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_project_name_Registration_date_project_type(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69556470,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User has to verify rating system LEED v4.1 O+M: Interiors,unit type IP units",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LEED v4.1 O+M: Interiors",
+                  "offset": 33
+                },
+                {
+                  "val": "IP units",
+                  "offset": 68
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_rating_system_unit_type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56753452,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User has to verify Gross floor area 1000 sq ft,Antisipated type Airport: Distribution Center",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000 sq ft",
+                  "offset": 36
+                },
+                {
+                  "val": "Airport: Distribution Center",
+                  "offset": 64
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_Gross_floor_area_Antisipated_type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55897854,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User has to verify country United States,Address 9338 Carpenter St.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United States",
+                  "offset": 27
+                },
+                {
+                  "val": "9338 Carpenter St.",
+                  "offset": 49
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_country_address(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120818762,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User has to verify city Waukesha,state Wisconsin,postal code 53186,geo location 41.582272, -85.834438",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waukesha",
+                  "offset": 24
+                },
+                {
+                  "val": "Wisconsin",
+                  "offset": 39
+                },
+                {
+                  "val": "53186",
+                  "offset": 61
+                },
+                {
+                  "val": "41.582272, -85.834438",
+                  "offset": 80
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_city_state_postal_code_geo_location(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54036001,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User has to verify PRIVATE no,Affliated with Leed lab \u003cAffliated with Leed lab\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no",
+                  "offset": 27
+                },
+                {
+                  "val": "\u003cAffliated with Leed lab\u003e",
+                  "offset": 54
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_PRIVATE_Affliated_with_Leed_lab(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110303130,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User has to verify Owner J \u0026 S Real AssetLLC,Owners Representative \u003cOwners Representative\u003e,OwnerType \u003cOwnerType\u003e,Owner Country\u003cOwner Country\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J \u0026 S Real AssetLLC",
+                  "offset": 25
+                },
+                {
+                  "val": "\u003cOwners Representative\u003e",
+                  "offset": 67
+                },
+                {
+                  "val": "\u003cOwnerType\u003e",
+                  "offset": 101
+                },
+                {
+                  "val": "\u003cOwner Country\u003e",
+                  "offset": 126
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_Owner_Owners_Representative_Ownertype_Owner_Country(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29033718,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User has to verify Email address js.a@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": " js.a@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "projectdetails.User_has_to_verify_Email_address(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "To  Download and Upload the Change of Owner Agreement if the owner has changed",
+        "description": "",
+        "id": "verifying-the-project-details--edit--download-and-upload-documents;to--download-and-upload-the-change-of-owner-agreement-if-the-owner-has-changed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29924809,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User has to verify Change of Owner Agreement page",
+            "match": {
+              "location": "projectdetails.User_has_to_verify_Change_of_Owner_Agreement_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99603993,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User clicks on download",
+            "match": {
+              "location": "projectdetails.User_clicks_on_download()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25044931012,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User should navigate to Change of Owner Agreement form page",
+            "match": {
+              "location": "projectdetails.User_should_navigate_to_Change_of_Owner_Agreement_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164977998,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on download button",
+            "match": {
+              "location": "projectdetails.User_clicks_on_download_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6142500221,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should navigate to resource file page",
+            "match": {
+              "location": "projectdetails.User_should_navigate_to_resource_file_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2420534670,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks on Change of Owner Agreement pdf file",
+            "match": {
+              "location": "projectdetails.User_clicks_on_Change_of_Owner_Agreement_pdf_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11418365466,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User has to fill the downloaded file and upload file by click on Upload Change of Owner Agreement button",
+            "match": {
+              "location": "projectdetails.User_has_to_fill_the_downloaded_file_and_upload_file_by_click_on_Upload_Change_of_Owner_Agreement_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 520307,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User can see the uploaded file in project details page",
+            "match": {
+              "location": "projectdetails.User_can_see_the_uploaded_file_in_project_details_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "To edit and update  project details",
+        "description": "",
+        "id": "verifying-the-project-details--edit--download-and-upload-documents;to-edit-and-update--project-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1329828374,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User sholud be in project details page",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_sholud_be_in_project_details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71510830,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User has to click on edit icon",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_has_to_click_on_edit_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574788233,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User can see the update project page",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_can_see_the_update_project_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128415693,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User can edit Gross floor area",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_can_edit_Gross_floor_area()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86237624,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User clicks on Update Button",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_clicks_on_Update_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182372,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User can check the update details",
+            "match": {
+              "location": "Usgbc_LeedVerifyStepDef.User_can_check_the_update_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the project details, edit, download and upload documents",
+    "description": "",
+    "id": "verifying-the-project-details--edit--download-and-upload-documents",
+    "keyword": "Feature",
+    "uri": "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
+    "tags": []
+  }
+]

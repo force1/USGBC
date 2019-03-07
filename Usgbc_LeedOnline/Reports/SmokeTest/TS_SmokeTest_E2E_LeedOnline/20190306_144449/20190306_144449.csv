@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_SmokeTest_E2E_LeedOnline,Chrome 72.0.3626.119,,2019-03-06 14:45:04,2019-03-06 14:48:24,3m - 19.873s,PASSED
+,,,,,,
+Test Cases/SmokeTest/TC_Campus_Registration,Chrome 72.0.3626.119,,2019-03-06 14:45:05,2019-03-06 14:46:17,1m - 12.290s,PASSED
+runWithCucumberRunner(testRunner.CampusRegistrationRunner),Chrome 72.0.3626.119,,2019-03-06 14:45:05,2019-03-06 14:46:17,1m - 11.817s,PASSED
+,,,,,,
+Test Cases/SmokeTest/TC_Project_Registration,Chrome 72.0.3626.119,,2019-03-06 14:46:17,2019-03-06 14:48:23,2m - 6.239s,PASSED
+runWithCucumberRunner(testRunner.ProjectRegistrationRunner),Chrome 72.0.3626.119,,2019-03-06 14:46:17,2019-03-06 14:48:23,2m - 5.971s,PASSED
