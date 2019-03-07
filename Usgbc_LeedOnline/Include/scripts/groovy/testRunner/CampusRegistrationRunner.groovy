@@ -71,7 +71,7 @@ import cucumber.api.junit.Cucumber
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "Include/features/Usgbc_LeedCampusReg.feature",glue="",
+@CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/usgbc/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature" ,glue="",
 plugin = ["pretty",
 	"junit:MyReports/CampusRegistration.xml",
 	"html:MyReports/CampusRegistration.html",
