@@ -75,7 +75,7 @@ import cucumber.api.junit.Cucumber
 plugin = ["pretty",
 	"junit:C:/Program Files (x86)/Jenkins/workspace/usgbc/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
 	"html:C:/Program Files (x86)/Jenkins/workspace/usgbc/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
-	"json:C:/Program Files (x86)/Jenkins/workspace/usgbc/Usgbc_LeedOnline/MyReports/cucumber.json"],
+	"json:C:/Program Files (x86)/Jenkins/workspace/usgbc/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
 tags=['@SmokeTest'] )
 class CampusRegistrationRunner {
 }
