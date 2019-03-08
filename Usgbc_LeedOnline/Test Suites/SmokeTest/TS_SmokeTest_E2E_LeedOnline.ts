@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SmokeTest/TC_Campus_Registration</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d46a9613-114d-442b-a9bc-d4ebc2f8c94c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/TC_Project_Registration</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
